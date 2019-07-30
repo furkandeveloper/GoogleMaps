@@ -1,0 +1,22 @@
+﻿@model GoogleMaps.Models.GoogleMapsViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+    <form asp-action="Index" asp-controller="Default" method="post">
+        <input asp-for="Adress" />
+        <input type="submit"  value="Kordinat bul"/>
+    </form>
+
+
+    <p>x kordinat : @Model.xCordinat</p>
+    <br />
+    <p>y kordinat : @Model.yCordinat</p>
+<br />
+<p>tam adres : @Model.FullAddress</p>
+<br />
+<p>mesaj : @Model.Message</p>
+
+
