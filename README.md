@@ -1,5 +1,6 @@
 # .Net Core Google Maps
 
-Bu uygulama sayesinde bir adresin enlem ve boylamını bulmayı öğrenebilirsiniz.
+Summary
+Access latitude and longitude information of any address with Google Maps.
 
-Umarım faydalı olur.
+Would you like to try with .Net Core?
